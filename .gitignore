@@ -1,8 +1,7 @@
-_pycache_/
+__pycache__/
 *.pyc
-*.pyo
 venv/
-.env
-.venv
-#VScode
-.vscode/*.log
+.venv/
+.vscode/
+*.log
+.DS_Store
