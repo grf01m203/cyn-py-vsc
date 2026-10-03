@@ -4,6 +4,7 @@ def hello():
     print("Hello, World!")
     print("Modified on Gitee Web")
     print("Edit from Gitee website")
+    print("Edit from GitHub website")
 
 if __name__ == "__main__":
     hello()
