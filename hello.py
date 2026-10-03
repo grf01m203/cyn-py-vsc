@@ -5,5 +5,9 @@ def hello():
     print("Modified on Gitee Web")
     print("Edit from Gitee website")
     print("Edit from GitHub website")
+def prints_1():
+    print("  ")
+
 if __name__ == "__main__":
     hello()
+    prints_1()
