@@ -12,8 +12,18 @@ def jjf():
     b=30
     c=a*b
     print(f"Result of {a} * {b} = {c}")
+def power_tower(base, times):
+    """幂塔函数 base^base^base... 共times层"""
+    if times == 0:
+        return 1
+    res = base
+    for i in range(times - 1):
+        res = base ** res
+    return res
 
 if __name__ == "__main__":
     hello()
     prints_1()
     jjf()
+    print(power_tower(2,3))
+    #2^(2^2)=16
