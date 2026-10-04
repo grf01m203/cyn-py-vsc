@@ -29,6 +29,6 @@ if __name__ == "__main__":
     #2^(2^2)=16
     #test
     print("This change comes from second device (B)")
-    print("This change comes from second device (B)")
+    
 
     #B协助
