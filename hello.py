@@ -7,7 +7,13 @@ def hello():
     print("Edit from GitHub website")
 def prints_1():
     print("  ")
+def jjf():
+    a=10
+    b=30
+    c=a*b
+    print(f"Result of {a} * {b} = {c}")
 
 if __name__ == "__main__":
     hello()
     prints_1()
+    jjf()
