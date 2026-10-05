@@ -20,6 +20,8 @@ def power_tower(base, times):
     for i in range(times - 1):
         res = base ** res
     return res
+def add(a,b):
+    return a+b
 
 if __name__ == "__main__":
     hello()
@@ -29,6 +31,5 @@ if __name__ == "__main__":
     #2^(2^2)=16
     #test
     print("This change comes from second device (B)")
-    
-
+    print(add(10,20))
     #B协助
